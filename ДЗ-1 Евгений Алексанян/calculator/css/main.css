@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.calc {
+    padding: 20% 18%;
+}
+
+.inp {
+    width: 200px;
+    background: #1E88E5;
+    border: 2px #ea4335 solid;
+    font-size: 50px;
+    color: #fbbc05;
+    padding: 18px 0 10px 0;
+}
+
+.plus {
+    font-size: 60px;
+    color: red;
+}
+
+.go {
+    width: 200px;
+    background: red;
+    font-size: 50px;
+    color: #fbbc05;
+    padding: 10px;
+}
+
+.res {
+    margin-left: 2%;
+    font-size: 50px;
+    color: #fbbc05;
+}
+
+.err {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}

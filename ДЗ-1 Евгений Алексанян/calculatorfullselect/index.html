@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="calc">
+    <input class="inp" type="text" name="num1">
+    <select class="select" size="5">
+        <option class="option-head" disabled>Выберите оператор:</option>
+        <option class="option" value="+" data-op="+">+</option>
+        <option class="option" value="-" data-op="-">-</option>
+        <option class="option" value="*" data-op="*">*</option>
+        <option class="option" value="/" data-op="/">/</option>
+    </select>
+    <input class="inp" type="text" name="num2">
+    <span class="equal-sign">=</span>
+    <span class="res"></span>
+    <p class="err"></p>
+</div>
+</body>
+</html>

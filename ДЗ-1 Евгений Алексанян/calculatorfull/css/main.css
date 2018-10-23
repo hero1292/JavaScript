@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.calc {
+    padding: 20% 5%;
+}
+
+.inp {
+    width: 200px;
+    background: #1E88E5;
+    border: 2px #ea4335 solid;
+    font-size: 50px;
+    color: #fbbc05;
+}
+
+.btn {
+    width: 100px;
+    background: red;
+    font-size: 50px;
+    color: #fbbc05;
+}
+
+.equal-sign {
+    font-size: 60px;
+    color: red;
+    margin-left: 2%;
+}
+
+.res {
+    margin-left: 1%;
+    font-size: 50px;
+    color: #fbbc05;
+}
+
+.err {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}

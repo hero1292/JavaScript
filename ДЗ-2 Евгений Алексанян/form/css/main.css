@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 300px;
+    height: 400px;
+    margin: 10% 40%;
+    background-color: aquamarine;
+    border: 2px aquamarine solid;
+}
+
+.form-div {
+    margin: 25% 20%;
+}
+
+.check {
+    margin-bottom: 2%;
+    padding: 5%;
+    border: 1px green solid;
+}
+
+.check:focus {
+    margin-bottom: 2%;
+    padding: 5%;
+    border: 2px green dashed;
+}
+
+.check-error {
+    margin-bottom: 2%;
+    padding: 5%;
+    border: 2px red solid;
+}
+
+.check-error:focus {
+    margin-bottom: 2%;
+    padding: 5%;
+    border: 2px red dashed;
+}
+
+.error {
+    font-size: 15px;
+    color: darkred;
+}
+
+.right {
+    font-size: 15px;
+    color: green;
+}
+
+#submit-error {
+    font-size: 18px;
+    color: darkred;
+}
+
+.btn {
+    margin-top: 8%;
+    margin-left: 18%;
+    padding: 10%;
+    background-color: darkblue;
+    font-size: 16px;
+    color: gold;
+    border: 1px gold solid;
+}
+
+.btn:hover {
+    margin-top: 8%;
+    margin-left: 18%;
+    padding: 10%;
+    background-color: coral;
+    font-size: 16px;
+    color: gold;
+    border: 1px gold solid;
+}
